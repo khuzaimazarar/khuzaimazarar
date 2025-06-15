@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Khuzaima Zarar | Computer Engineer & Innovator</title>
+    <meta
+      name="description"
+      content="Khuzaima Zarar – Computer Engineer passionate about AI, Machine Learning, Embedded Systems, and Web/Mobile Development."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Site Verification -->
+    <meta
+      name="google-site-verification"
+      content="verified_google_code_example_123456"
+    />
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <!-- Google Analytics (GA4) Placeholder -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XXXXXXXXXX");
+    </script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <style>
+      :root {
+        --bg-color: #fdfefe;
+        --text-color: #222;
+        --header-bg: linear-gradient(to right, #2c3e50, #3498db);
+        --card-bg: white;
+      }
+      [data-theme="dark"] {
+        --bg-color: #121212;
+        --text-color: #f1f1f1;
+        --header-bg: linear-gradient(to right, #0f2027, #203a43);
+        --card-bg: #1e1e1e;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Segoe UI", sans-serif;
+        background: var(--bg-color);
+        color: var(--text-color);
+        transition: all 0.3s ease;
+      }
+      .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 30px;
+      }
+      header {
+        background: var(--header-bg);
+        color: white;
+        padding: 70px 20px;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+      header h1 {
+        font-size: 3.5rem;
+        animation: slideIn 1s ease;
+      }
+      header p {
+        font-size: 1.2rem;
+        margin-top: 10px;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 20px 0;
+        gap: 25px;
+      }
+      nav a {
+        text-decoration: none;
+        padding: 10px 15px;
+        color: #2c3e50;
+        font-weight: 600;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+      }
+      nav a:hover {
+        background: #2980b9;
+        color: white;
+      }
+      section {
+        background: var(--card-bg);
+        padding: 40px;
+        margin-bottom: 40px;
+        border-radius: 20px;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        color: #2c3e50;
+        margin-bottom: 20px;
+        border-bottom: 2px solid #ecf0f1;
+        padding-bottom: 5px;
+      }
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+      }
+      .skills span {
+        background: #3498db;
+        color: white;
+        padding: 10px 15px;
+        margin: 5px;
+        display: inline-block;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        transition: transform 0.3s ease;
+      }
+      .skills span:hover {
+        transform: scale(1.1);
+        background: #2c3e50;
+      }
+      footer {
+        text-align: center;
+        padding: 30px;
+        background: #ecf0f1;
+        font-size: 0.95rem;
+        border-radius: 12px;
+      }
+      .dark-toggle {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+        background: #2c3e50;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 15px;
+        font-size: 0.9rem;
+        z-index: 9999;
+      }
+      @keyframes slideIn {
+        from {
+          opacity: 0;
+          transform: translateY(-40px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <button class="dark-toggle" onclick="toggleTheme()">
+      Toggle Dark Mode
+    </button>
+    <div class="container">
+      <header>
+        <h1>Khuzaima Zarar</h1>
+        <p>
+          Pakistani | Born 20th March 2006 | Computer Engineering Student |
+          Campus Ambassador | Footballer
+        </p>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </nav>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I’m <strong>Muhammad Khuzaima Zarar</strong>, a passionate and curious
+          Computer Engineering student with interests in AI, Machine Learning,
+          Embedded Systems, Web & Mobile Development. I believe in solving
+          real-world problems using modern technologies. With a strong
+          foundation in both hardware and software, I've pursued my goals
+          through internships, certifications, leadership opportunities, and
+          hands-on projects.
+        </p>
+        <p>
+          My football journey is just as meaningful—I'm a district-level
+          footballer who plays as a striker and has represented my institution
+          in various championships. My leadership, discipline, and teamwork on
+          the field complement my engineering passion off the field.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+          <span>C++</span><span>HTML</span><span>CSS</span
+          ><span>JavaScript</span><span>Flutter</span><span>Firebase</span
+          ><span>React Native</span><span>Embedded C</span><span>SQL</span
+          ><span>OOP</span><span>DSA</span><span>Verilog</span
+          ><span>Vivado</span><span>Git</span><span>AI</span
+          ><span>Machine Learning</span>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <strong>Smart Gloves for the Blind:</strong> Arduino-based gloves
+            using ultrasonic sensors and vibration motors.
+          </li>
+          <li>
+            <strong>E-commerce Console App:</strong> DSA project using Linked
+            Lists, Queues, Stacks, and Trees in C++.
+          </li>
+          <li>
+            <strong>Restaurant Website:</strong> Full-stack website using HTML,
+            CSS, JavaScript, and MySQL.
+          </li>
+          <li>
+            <strong>32-bit Single-Cycle MIPS Processor:</strong> Implemented in
+            Verilog and simulated in Xilinx Vivado.
+          </li>
+          <li>
+            <strong>Flashcard Quiz App:</strong> Mobile quiz app built in
+            Flutter/React Native.
+          </li>
+          <li>
+            <strong>Random Quote Generator:</strong> Displays motivational
+            quotes using JS API with share feature.
+          </li>
+          <li>
+            <strong>Fitness Tracking App:</strong> React Native app to track
+            workouts and goals with Firebase backend.
+          </li>
+          <li>
+            <strong>Language Learning App:</strong> Gamified experience with
+            leaderboards, achievements, and quizzes.
+          </li>
+        </ul>
+      </section>
+
+      <section id="certifications">
+        <h2>Certifications & Internships</h2>
+        <ul>
+          <li>
+            Campus Ambassador at <strong>The Talent Beacon</strong> (<a
+              href="https://www.linkedin.com/posts/engr-khuzaima-zarar-438585288_campusambassador-thetalentbeacon-leadership-activity-7321105206052569088-4Pyn/"
+              target="_blank"
+              >LinkedIn</a
+            >)
+          </li>
+          <li>Software Development Internship at Ezitech, Rawalpindi</li>
+          <li>Certificate in Artificial Intelligence & Machine Learning</li>
+          <li>Front-End Development with Bootstrap, HTML, CSS</li>
+          <li>Cybersecurity Fundamentals</li>
+        </ul>
+      </section>
+
+      <section id="achievements">
+        <h2>Achievements</h2>
+        <ul>
+          <li>🏆 Selected for District Football Championship</li>
+          <li>⚽ Scored winning goals in university-level tournaments</li>
+          <li>
+            🎓 Currently pursuing Computer Engineering at Air University (GPA
+            3.25)
+          </li>
+          <li>🥇 Gold Medal in Departmental Hiking Competition</li>
+          <li>
+            🚀 Built and presented multiple tech projects at university expos
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+          /><br /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+          /><br /><br />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="4"
+            required
+          ></textarea
+          ><br /><br />
+          <button type="submit">Send Message</button>
+        </form>
+        <p>
+          Email:
+          <a href="mailto:khuzaimazarar@gmail.com">khuzaimazarar@gmail.com</a>
+        </p>
+        <p>
+          LinkedIn:
+          <a
+            href="https://www.linkedin.com/in/engr-khuzaima-zarar-438585288/"
+            target="_blank"
+            >@engr-khuzaima-zarar</a
+          >
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/khuzaimazarar" target="_blank"
+            >github.com/khuzaimazarar</a
+          >
+        </p>
+        <p>
+          Instagram:
+          <a href="https://instagram.com/ENGR.KHZ_09" target="_blank"
+            >@ENGR.KHZ_09</a
+          >
+        </p>
+      </section>
+
+      <footer>
+        <p>&copy; 2025 Khuzaima Zarar. Built with dedication and passion.</p>
+      </footer>
+    </div>
+
+    <script>
+      function toggleTheme() {
+        const currentTheme =
+          document.documentElement.getAttribute("data-theme");
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+        document.documentElement.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+      }
+      document.addEventListener("DOMContentLoaded", () => {
+        const savedTheme = localStorage.getItem("theme") || "light";
+        document.documentElement.setAttribute("data-theme", savedTheme);
+      });
+    </script>
+  </body>
+</html>
